@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Form nilai java script</title>
+		<script src="fungsi_form_java.js"></script>
+	</head>
+	<body>
+	<form action="form_java_nilai.html" method="post" name="formku">
+	<table width="400">
+		<tr>
+			<td width="80">Nama</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="nama" id="nama"></td>
+		</tr>
+		<tr>
+			<td width="80">Nilai</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="nilai" id="nilai" onChange="setnilai(this.value)"></td>
+		</tr>
+		<tr>
+			<td width="80">Grade</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="grade" id="grade"></td>
+		</tr>
+		<tr>
+			<td width="80">Keterangan</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="ket" id="ket"></td>
+		</tr>
+		<tr>
+			<td colspan="3">
+			<input type="submit" name="submit" value="ok">
+			<input type="reset" name="reset" value="cancel"></td>
+		</tr>
+	</table>
+	</form>
+	</body>
+</html>

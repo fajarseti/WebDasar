@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Peletakan Java dalam head</title>
+	<script language="javascript">
+		function ceknama()
+		{
+		 if(document.formku.nama.value=="")
+		 {
+		  alert("Nama harus diisi");
+		  formku.nama.focus();
+		  formku.nama.select();
+		  return(false);
+		 }
+		}
+	</script>	
+	</head>
+	<body>
+		<form name="formku" method="post" action="java1.html">
+			<table>
+			<tr>
+				<td>Nama :</td>
+				<td colspan="2"><input type="text" name="nama" oninput="ceknama()"></td>
+		    </tr>			
+			<tr>
+				<td>&nbsp </td>
+				<td><input type="submit" value="Kirim Pesan" name="submit" onclick="ceknama()"></td>
+				<td><input type="reset" value="Batal" name="reset"></td>
+			</tr>
+           	</table>
+		</form>
+	</body>
+</html>	

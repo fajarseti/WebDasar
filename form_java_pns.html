@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Form PNS java script</title>
+		<script src="fungsi_form_java.js"></script>
+	</head>
+	<body>
+	<form action="form_java_pns.html" method="post" name="formku">
+	<table width="400">
+		<tr>
+			<td width="80">Nama</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="nama" id="nama"></td>
+		</tr>
+		<tr>
+			<td width="80">Golongan</td>
+			<td width="10">:</td>
+			<td width="250">
+				<select name="gol" onclick="setgol(this.value)">
+					<option>A</option>
+					<option>B</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td width="80">Gaji</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="gaji" id="gaji"></td>
+		</tr>
+		<tr>
+			<td width="80">Pajak</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="pajak" id="pajak"></td>
+		</tr>
+		<tr>
+			<td width="80">Gaji Bersih</td>
+			<td width="10">:</td>
+			<td width="250">
+				<input type="text" name="gaber" id="gaber"></td>
+		</tr>
+		<tr>
+			<td colspan="3">
+			<input type="submit" name="submit" value="ok">
+			<input type="reset" name="reset" value="cancel"></td>
+		</tr>
+	</table>
+	</form>
+	</body>
+</html>
